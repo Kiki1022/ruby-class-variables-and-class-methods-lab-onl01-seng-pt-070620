@@ -39,6 +39,7 @@ class Song
 
     if !@@genre_count.include?(genre)
         @genre = 1
+        
     else
         @genre += 1
   
