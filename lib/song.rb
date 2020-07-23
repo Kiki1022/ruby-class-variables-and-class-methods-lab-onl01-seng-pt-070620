@@ -38,8 +38,8 @@ class Song
    	
 
     if !@@genre_count.include?(genre)
-        @genre = 1
-        
+        @@genre_ = 1
+        hash[key1]
     else
         @genre += 1
   
