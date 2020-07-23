@@ -37,7 +37,7 @@ class Song
      @@genres.each do|genre|
    	
 
-    if !@@genre_count.include?(genre)
+    if @@genre_count.include?(genre)
         @@genre_count[genre] = 1
         #hash[key1]
     else
