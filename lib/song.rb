@@ -41,7 +41,7 @@ class Song
         @@genre_count[genre] = 1
         #hash[key1]
     else
-        @genre += 1
+        genre += 1
   
     end
   end 
