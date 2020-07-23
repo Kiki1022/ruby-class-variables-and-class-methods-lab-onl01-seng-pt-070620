@@ -35,7 +35,7 @@ class Song
      
      genre_count = {}
      genre = []
-     @@genres.each do|genre|
+     genres.each do|genre|
    	
 
     if !genre_count[genre]
