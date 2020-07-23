@@ -32,9 +32,10 @@ class Song
   end
   
   def self.genre_count
-     @@genre_count = {}
      
-     @@genre_count.each do|genre, genre.total|
+     @@genre_count = {}
+     @@genre_count.each do|genre, |
+   
    end
   end
   
