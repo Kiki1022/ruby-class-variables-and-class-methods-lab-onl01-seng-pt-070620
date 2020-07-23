@@ -37,6 +37,7 @@ class Song
      @@genres.each do|genre|
     
    end
+   @@genre_count
   end
   
   
