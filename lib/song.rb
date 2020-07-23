@@ -50,7 +50,7 @@ end
 def self.artist_count
   
 artist_count = {}
-@@artist.each do|artist|
+@@artists.each do|artist|
 end
 
 
