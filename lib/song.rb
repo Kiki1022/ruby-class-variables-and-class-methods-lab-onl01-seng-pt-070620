@@ -37,10 +37,11 @@ class Song
      @@genres.each do|genre|
    	
 
-if @@genre_count.does  does not have a key of this genre
-  create it and set it equal to 1
-else (it does have the key)
-  increment it by 1
+if !@@genre_count.include?  
+      @genre = 1
+else
+  @genre += 1
+  
 end
 
      
