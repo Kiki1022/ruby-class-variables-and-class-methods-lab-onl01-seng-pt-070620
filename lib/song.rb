@@ -35,7 +35,14 @@ class Song
      
      @@genre_count = {}
      @@genres.each do|genre|
-   
+   	
+
+if @@genre_count.does  does not have a key of this genre
+  create it and set it equal to 1
+else (it does have the key)
+  increment it by 1
+end
+
      
      
      
